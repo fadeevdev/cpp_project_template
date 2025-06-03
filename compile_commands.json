@@ -1,0 +1,22 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++26",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "-g",
+      "-Iinclude",
+      "-Isrc",
+      "-o",
+      "build/main",
+      "src/main.cpp"
+    ],
+    "directory": "/home/fadeev/dev/github.com/fadeevdev/cpp_tests",
+    "file": "/home/fadeev/dev/github.com/fadeevdev/cpp_tests/src/main.cpp",
+    "output": "/home/fadeev/dev/github.com/fadeevdev/cpp_tests/build/main"
+  }
+]
