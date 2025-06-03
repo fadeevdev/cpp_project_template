@@ -2,8 +2,8 @@
   {
     "arguments": [
       "/usr/bin/g++",
-      "-c",
       "-std=c++26",
+      "-fmodules-ts",
       "-Wall",
       "-Wextra",
       "-Wpedantic",
@@ -11,12 +11,13 @@
       "-g",
       "-Iinclude",
       "-Isrc",
+      "-c",
       "-o",
-      "build/main",
+      "build/main.o",
       "src/main.cpp"
     ],
     "directory": "/home/fadeev/dev/github.com/fadeevdev/cpp_tests",
     "file": "/home/fadeev/dev/github.com/fadeevdev/cpp_tests/src/main.cpp",
-    "output": "/home/fadeev/dev/github.com/fadeevdev/cpp_tests/build/main"
+    "output": "/home/fadeev/dev/github.com/fadeevdev/cpp_tests/build/main.o"
   }
 ]
